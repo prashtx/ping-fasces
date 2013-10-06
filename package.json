@@ -1,0 +1,11 @@
+{
+  "name": "comfortless",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  }
+}

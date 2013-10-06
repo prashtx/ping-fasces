@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "action": "GET",
+      "data": {
+        "url": "http://localhost/"
+      }
+    },
+    {
+      "action": "GET",
+      "data": {
+        "url": "http://localhost/foo/bar/foo/bar"
+      }
+    }
+  ]
+}
