@@ -20,7 +20,7 @@ and so your fingers don't get tired.
 
 The configuration object should follow the format below.
 
-```
+```json
 {
   "items": [
     {
@@ -51,7 +51,7 @@ To configure ping-fasces, set the `CONFIG` environment variable to the single-li
 To configure Heroku, you can keep a `heroku-config.json` file that's a bit more legible, and then use the following two scripts:
 
 ### jsonSlim
-```
+```javascript
 #!/usr/local/bin/node
 
 var orig = '';
@@ -75,7 +75,7 @@ process.stdin.resume();
 
 
 ### heroku-config.sh
-```
+```sh
 #!/bin/sh
 
 heroku config:set CONFIG="`cat heroku-config.json | jsonSlim`" --app my-pinger-app 
